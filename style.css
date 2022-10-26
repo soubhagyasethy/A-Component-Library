@@ -1,8 +1,16 @@
+
+:root {
+    --primary-color: #7c3aed;
+}
+/* typography */
+
 @import url('https://fonts.googleapis.com/css2?@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');family=Montserrat&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* container */
 
 .container {
     padding-left: 1rem;
@@ -13,3 +21,23 @@ body {
     max-width: 600px;
     margin: auto;
 }
+
+/* link */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.link-secondary {
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* Look into BEM naming convention */
