@@ -6,6 +6,7 @@
 
 :root {
     --primary-color: #7c3aed;
+    --dark-grey: #6b7280;
 }
 
 body {
@@ -71,13 +72,36 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
 }
+
 .navigation .nav-pills {
     text-align: right;
 }
+
 .navigation .link {
     color: white;
 }
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+/* header */
+
+.hero {
+    padding: 1rem;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-grey);
+}
+
+.hero .hero-heading .hero-inverted {
+    color: var(--primary-color);
 }
